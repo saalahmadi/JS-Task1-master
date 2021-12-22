@@ -50,7 +50,12 @@
 
       //Get element by querySelectorAll
       //Iterate boxes through a For of loop to add functionallity
-     
+      const boxToSelect2=document.querySelectorAll(".box-to-select-2");
+      for(const element of boxToSelect2){
+        element.addEventListener("click",function(e){
+          e.target.style.backgroundColor="#A2D9CE";
+        })
+      }
   </script>
 </body>
 
