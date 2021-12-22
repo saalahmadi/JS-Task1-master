@@ -30,6 +30,16 @@
       })
 
       //Get element by className
+      const boxToSelect=document.getElementsByClassName("box-to-select");
+     
+        for(const element of boxToSelect){
+          element.addEventListener("click",function(event){
+            event.target.style.backgroundColor="#D7BDE2";
+
+
+          })
+        }
+      
 
       //Iterate boxes through a For of loop to add functionallity
       //Get Element with qeurySelector
